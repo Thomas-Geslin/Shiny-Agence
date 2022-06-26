@@ -1,0 +1,58 @@
+.freelances {
+    text-align: center;
+    margin-top: 100px;
+        &__title {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 55px;
+        }
+        &__text {
+            font-size: 20px;
+            font-weight: 700;
+            color: #8186A0;
+            margin-bottom: 100px;
+        }
+        &__person {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-row-gap: 100px;
+            width: 50%;
+            margin: auto;
+            margin-bottom: 150px;
+                &__box {
+                    background-color: #F9F9FC;
+                    border-radius: 30px;
+                    width: 340px;
+                    height: 340px;
+                    border: 2px solid transparent;
+                    justify-self: center;
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                        &__title {
+                            text-align: left;
+                            color: #5843E4;
+                            font-size: 22px;
+                            font-weight: 400;
+                            margin-top: 35px;
+                            margin-left: 35px;
+                        }
+                        &__picture {
+                            width: 150px;
+                            margin: auto;
+                        }
+                        &__name {
+                            font-size: 25px;
+                            font-weight: 400;
+                            margin-top: 15px;
+                            margin-bottom: 50px;
+                            
+                        }
+                        &:hover {
+                            border: #5843E4 2px solid;
+                            cursor: pointer;
+                        }
+                }
+        }
+}

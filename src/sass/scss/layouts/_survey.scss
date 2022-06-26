@@ -1,0 +1,52 @@
+.survey {
+    text-align: center;
+    margin-top: 100px;
+        &__number {
+            width: 129px;
+            font-size: 25px;
+            font-weight: 700px;
+            line-height: 29px;
+            border-bottom: #5843E4 solid 2px;
+            margin: auto;
+        }
+        &__question {
+            font-size: 22px;
+            width: 50%;
+            margin: auto;
+            margin-top: 75px;
+            margin-bottom: 75px;
+        }
+        &__response {
+            display: flex;
+            justify-content: space-between;
+            width: 30%;
+            margin: auto;
+            &__button {
+                font-size: 25px;
+                font-weight: 700;
+                background-color: #F9F9FC;
+                border: 2px solid transparent;
+                border-radius: 31px;
+                padding: 30px 100px 30px 100px;
+                    &:hover {
+                        border: #5843E4 solid 2px;
+                        cursor: pointer;
+                    }
+            }
+        }
+        &__nav {
+            display: flex;
+            justify-content: space-between;
+            width: 10%;
+            margin: auto;
+            margin-top: 75px;
+                &__part {
+                    font-size: 18px;
+                    color: black;
+                    text-decoration: none;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                }
+        }
+}

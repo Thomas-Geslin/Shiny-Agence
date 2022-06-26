@@ -1,0 +1,18 @@
+.error {
+    text-align: center;
+    background-color: #F9F9FC;
+    margin: 0 80px 0 80px;
+        &__title {
+            font-size: 31px;
+            font-weight: 700;
+            padding-top: 80px;
+            margin-bottom: 40px;
+        }
+        &__text {
+            font-size: 31px;
+            font-weight: 700;
+            margin-top: 100px;
+            padding-bottom: 100px;
+            margin-bottom: 0;
+        }
+}

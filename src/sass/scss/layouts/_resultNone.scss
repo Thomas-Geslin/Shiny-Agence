@@ -1,0 +1,20 @@
+.resultNone {
+    background-color: #F9F9FC;
+    text-align: center;
+    font-family: 'Comfortaa';
+    margin: 100px 80px 50px 80px;
+        &__title {
+            font-size: 30px;
+            font-weight: 700;
+            padding-top: 80px;
+            margin-bottom: 60px;
+        }
+        &__text {
+            font-size: 22px;
+            font-weight: 700;
+            width: 25%;
+            margin: auto;
+            margin-top: 100px;
+            padding-bottom: 150px;
+        }
+}

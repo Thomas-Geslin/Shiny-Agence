@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+        &__brand {
+            display: flex;
+            align-items: center;
+                &__logo {
+                    width: 57px;
+                    margin-left: 90px;
+                    margin-right: 13px;
+                }
+                &__text {
+                    font-size: 42px;
+                }
+        }
+        &__nav {
+            &__list {
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                margin-right: 100px;
+                margin-top: 45px;
+                    &__part {
+                        font-size: 20px;
+                        color: #8186A0;
+                        margin-left: 90px;
+                        text-decoration: none;
+                    }
+                    &__button {
+                        font-size: 20px;
+                        color: white;
+                        background-color: #5843E4;
+                        text-decoration: none;
+                        border-radius: 29px;
+                        padding: 10px 30px 10px 30px;
+                        text-align: center;
+                        margin-left: 90px;
+                    }
+            }
+        }
+}

@@ -1,0 +1,16 @@
+@import "./base/normalize";
+@import "./base/typo";
+
+@import "./utils/keyframes";
+
+@import "./layouts/loader";
+@import "./layouts/header";
+@import "./layouts/footer";
+
+@import "./layouts/home";
+@import "./layouts/survey";
+@import "./layouts/result";
+@import "./layouts/resultNone";
+@import "./layouts/freelances";
+@import "./layouts/freelance";
+@import "./layouts/error";

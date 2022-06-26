@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+        &__button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            color: #5843E4;
+            margin-bottom: 75px;
+        }
+}
